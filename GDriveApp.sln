@@ -1,0 +1,57 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26124.0
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{54CF58E6-7196-4558-BA56-1BA7E055CEE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DriveExplorer", "src\DriveExplorer\DriveExplorer.csproj", "{AEA5D265-A1E3-4332-B537-A2296E1EDACF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{3620F75E-5543-457E-A9C0-F0D80FFB9CA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DriveExplorer.UnitTests", "src\Test\DriveExplorer\DriveExplorer.UnitTests.csproj", "{30773610-1976-4F02-B2FB-28DF5DBA8FB0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AEA5D265-A1E3-4332-B537-A2296E1EDACF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEA5D265-A1E3-4332-B537-A2296E1EDACF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEA5D265-A1E3-4332-B537-A2296E1EDACF}.Debug|x64.ActiveCfg = Debug|x64
+		{AEA5D265-A1E3-4332-B537-A2296E1EDACF}.Debug|x64.Build.0 = Debug|x64
+		{AEA5D265-A1E3-4332-B537-A2296E1EDACF}.Debug|x86.ActiveCfg = Debug|x86
+		{AEA5D265-A1E3-4332-B537-A2296E1EDACF}.Debug|x86.Build.0 = Debug|x86
+		{AEA5D265-A1E3-4332-B537-A2296E1EDACF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEA5D265-A1E3-4332-B537-A2296E1EDACF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEA5D265-A1E3-4332-B537-A2296E1EDACF}.Release|x64.ActiveCfg = Release|x64
+		{AEA5D265-A1E3-4332-B537-A2296E1EDACF}.Release|x64.Build.0 = Release|x64
+		{AEA5D265-A1E3-4332-B537-A2296E1EDACF}.Release|x86.ActiveCfg = Release|x86
+		{AEA5D265-A1E3-4332-B537-A2296E1EDACF}.Release|x86.Build.0 = Release|x86
+		{30773610-1976-4F02-B2FB-28DF5DBA8FB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30773610-1976-4F02-B2FB-28DF5DBA8FB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30773610-1976-4F02-B2FB-28DF5DBA8FB0}.Debug|x64.ActiveCfg = Debug|x64
+		{30773610-1976-4F02-B2FB-28DF5DBA8FB0}.Debug|x64.Build.0 = Debug|x64
+		{30773610-1976-4F02-B2FB-28DF5DBA8FB0}.Debug|x86.ActiveCfg = Debug|x86
+		{30773610-1976-4F02-B2FB-28DF5DBA8FB0}.Debug|x86.Build.0 = Debug|x86
+		{30773610-1976-4F02-B2FB-28DF5DBA8FB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30773610-1976-4F02-B2FB-28DF5DBA8FB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30773610-1976-4F02-B2FB-28DF5DBA8FB0}.Release|x64.ActiveCfg = Release|x64
+		{30773610-1976-4F02-B2FB-28DF5DBA8FB0}.Release|x64.Build.0 = Release|x64
+		{30773610-1976-4F02-B2FB-28DF5DBA8FB0}.Release|x86.ActiveCfg = Release|x86
+		{30773610-1976-4F02-B2FB-28DF5DBA8FB0}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AEA5D265-A1E3-4332-B537-A2296E1EDACF} = {54CF58E6-7196-4558-BA56-1BA7E055CEE8}
+		{3620F75E-5543-457E-A9C0-F0D80FFB9CA9} = {54CF58E6-7196-4558-BA56-1BA7E055CEE8}
+		{30773610-1976-4F02-B2FB-28DF5DBA8FB0} = {3620F75E-5543-457E-A9C0-F0D80FFB9CA9}
+	EndGlobalSection
+EndGlobal
