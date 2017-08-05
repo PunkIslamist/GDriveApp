@@ -1,5 +1,6 @@
 bin/
 obj/
+/packages/
 
 # .NET Core
 project.lock.json
